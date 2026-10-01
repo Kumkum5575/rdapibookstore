@@ -39,7 +39,8 @@ const frontUser = require('./routes/user/user')
 const createAdmin = require('./createAdmin')
 const mobile = require('./routes/mobile')
 const discount = require('./routes/discount')
-const bookAtPlaceRoutes = require('./routes/bookAtPlaceRoutes');
+// const bookAtPlaceRoutes = require('./routes/bookAtPlaceRoutes');
+const bookAtPlaceRoutes = require('./routes/bookAtPlaceRoute');
 
 const app = express();
 

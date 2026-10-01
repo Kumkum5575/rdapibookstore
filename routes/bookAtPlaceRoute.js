@@ -8,7 +8,7 @@ const {
     getBookAtPlaceById,
     updateBookAtPlace,
     deleteBookAtPlace
-} = require('./controllers/bookAtPlaceController');
+} = require('../controllers/BookAtPlaceController');
 
 
 // Create
