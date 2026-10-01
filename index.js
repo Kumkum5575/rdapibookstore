@@ -39,6 +39,7 @@ const frontUser = require('./routes/user/user')
 const createAdmin = require('./createAdmin')
 const mobile = require('./routes/mobile')
 const discount = require('./routes/discount')
+const bookAtPlaceRoutes = require('./routes/bookAtPlaceRoutes');
 
 const app = express();
 
@@ -48,6 +49,7 @@ app.use(express.json())
 
 app.use(book)
 app.use(user)
+app.use('/book-at-place', bookAtPlaceRoutes);
 app.use(mobile)
 app.use(discount)
 app.use(home)
